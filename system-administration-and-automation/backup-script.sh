@@ -2,6 +2,7 @@
 
 # -----------------------------
 #  Automated Backup Script
+#  Author: Talha
 # -----------------------------
 
 # Usage:

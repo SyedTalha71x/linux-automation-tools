@@ -1,6 +1,9 @@
 #!/bin/bash
 
-echo "This is a user account management script"
+# -----------------------------
+#  User Account Management Script
+#  Author: Talha
+# -----------------------------
 
 # check exisitng user 
 check_existing_user(){
