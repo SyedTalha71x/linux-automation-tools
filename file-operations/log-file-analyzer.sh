@@ -1,8 +1,12 @@
 #!/bin/bash
 
+# --------------------------------------------
+# Log File Analyzer Script
+# Author: Talha
+# --------------------------------------------
+
 echo "This is a log file analyzer script"
 
-# we have checked validate here that is user has correctly pass the arguments while running the script
 if [ $# -ne 1 ]; then
    echo "Please pass the log directory in the argument to analyze those logs"
    exit 1
@@ -10,7 +14,6 @@ fi
 
 LOGFILE=$(eval echo "$1")
 
-# Check if log file exists and is readable
 if [ ! -f "$LOGFILE" ]; then 
    echo "Log file not found in the system please enter correct log file"
    exit 1

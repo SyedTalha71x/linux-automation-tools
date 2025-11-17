@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# --------------------------------------------
+# System Health Check Script
+# Author: Talha
+# --------------------------------------------
+
 echo "----- System Health Check Report -----"
 
 echo "Date: $(date)"
